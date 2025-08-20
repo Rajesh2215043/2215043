@@ -7,7 +7,7 @@ async function Log(stack, level, package, message) {
 
   if (!BEARER_TOKEN || BEARER_TOKEN.trim() === "") {
     console.error(
-      "🚨 FATAL: Bearer token is not set in logger.js. Logging is disabled."
+      "FATAL: Bearer token is not set in logger.js. Logging is disabled."
     );
     return;
   }
