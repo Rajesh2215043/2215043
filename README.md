@@ -31,6 +31,4 @@ This repo contains a Node.js-based backend project implementing a URL shortener 
 
 Rajesh M (GitHub: Rajesh2215043)
 
-## License
 
-[add if any]
