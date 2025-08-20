@@ -1,6 +1,6 @@
 const express = require("express");
 const crypto = require("crypto");
-const { Log } = require("../logger.js");
+const { Log } = require("../logging_microservice/logger.js");
 
 const app = express();
 app.use(express.json({ limit: "10kb" }));
